@@ -37,7 +37,7 @@ func main() {
 
 	//Creo receptor para whastapp
 	receiverWsp := &whatsapp.WhatsAppReceiver{}
-	err := receiverWsp.SetContactInfo("+5493513393260")
+	err := receiverWsp.SetContactInfo("+5493513393200")
 	if err != nil {
 		fmt.Println("Error configurando receptor:", err)
 		return
